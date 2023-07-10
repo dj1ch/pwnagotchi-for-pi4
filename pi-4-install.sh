@@ -46,7 +46,7 @@ sudo chown root:root /usr/local/bin/pwnagotchi
 sudo chmod 711 /usr/bin/pwnagotchi-launcher
 # Enable services
 sudo systemctl enable bettercap pwngrid.peer.service pwnagotchi bluetooth
-echo "from here you will need to edit the following files: /etc/systemd/system/pwngrid-peer.service | /usr/local/share/bettercap/caplets/pwnagotchi-auto.cap | /usr/local/share/bettercap/caplets/pwnagotchi-auto.cap"
+echo "from here you will need to edit the following files: /etc/systemd/system/pwngrid-peer.service ; /usr/local/share/bettercap/caplets/pwnagotchi-auto.cap ; /usr/local/share/bettercap/caplets/pwnagotchi-auto.cap"
 echo "change mon0 to wlan0mon"
 echo "then you will need to load or edit your config.toml file for the pwnagotchi"
 echo "the location of the config.toml should be in /etc/pwnagotchi"
