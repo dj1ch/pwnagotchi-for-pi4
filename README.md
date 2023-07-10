@@ -1,5 +1,9 @@
 # pwnagotchi-for-pi4
-This script is going to help you by installing everything you need to install pwnagotchi. 
+This script is going to help you by installing everything you need to install pwnagotchi.
+
+### Note
+Not everything is fully automated, since this script only install the paackages you need. You will need to edit the configs in order for this to fully work. Refer to the pwnagotchi website for more support. 
+https://pwnagotchi.ai/
 
 # FAQ
 
