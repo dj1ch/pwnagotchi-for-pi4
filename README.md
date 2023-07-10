@@ -5,6 +5,7 @@ This script is going to help you by installing everything you need to install pw
 
 ## How do I run the script?
 `cd pwnagotchi-for-pi4`
+
 `sudo bash pi-4-install.sh`
 
 ## What do I do after installing?
