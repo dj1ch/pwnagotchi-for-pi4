@@ -26,7 +26,7 @@ sudo make altinstall
 sudo python3.7 -m pip install setuptools==65.5.0 pip==21
 sudo python3.7 -m pip install --upgrade wheel
 # Tensorflow download + install
-wget https://drive.google.com/file/d/1tlqeXAMtxsG9Fy5zgvCxaymrINDm8Ro-/view?pli=1
+git clone 
 sudo python3.7 -m pip install tensorflow-1.15.0-cp37-cp37m-linux_aarch64.whl
 # Libpcap install
 wget http://old.kali.org/kali/pool/main/libp/libpcap/libpcap0.8_1.9.1-4_arm64.deb
