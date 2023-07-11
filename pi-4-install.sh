@@ -30,7 +30,7 @@ sudo python3.7 -m pip install --upgrade wheel
 #cd tensorflow
 #sudo python3.7 -m pip install tensorflow-1.15.0-cp37-cp37m-linux_aarch64.whl
 #cd ~
-pip install tensorflow
+sudo python3.7 -m pip install tensorflow
 # Libpcap install
 wget http://old.kali.org/kali/pool/main/libp/libpcap/libpcap0.8_1.9.1-4_arm64.deb
 sudo dpkg -i libpcap0.8_1.9.1-4_arm64.deb
