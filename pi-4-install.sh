@@ -13,7 +13,7 @@ wget https://github.com/evilsocket/pwngrid/releases/download/v1.10.3/pwngrid_lin
 unzip pwngrid_linux_aarch64_v1.10.3.zip
 sudo mv pwngrid /usr/bin/
 sudo pwngrid -generate -keys /etc/pwnagotchi
-# More dependancies
+# More dependencies
 sudo apt-get -y install gfortran libopenmpi-dev libdbus-1-dev libdbus-glib-1-dev liblapack-dev libhdf5-dev libc-ares-dev libeigen3-dev libatlas-base-dev libopenblas-dev libblas-dev
 # Python building + updating
 sudo apt-get install -y build-essential checkinstall pkg-config libfreetype6-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev
