@@ -1,7 +1,14 @@
 #!/usr/bin/env bash
-# NOTE: YOU MUST HAVE RAN UPDATES, UPGRADED THE PACKAGES,
-# INSTALLED AIRCRACK AND WGET, AND REBOOTED YOUR SYSTEM!
-# CHECK THE INSTALL GUIDE AT https://github.com/jayofelony/pwnagotchi/tree/master
+# NOTE: YOU MUST HAVE RAN UPDATES, UPGRADED THE PACKAGES, INSTALLED AIRCRACK AND WGET, AND REBOOTED YOUR SYSTEM! CHECK THE INSTALL GUIDE AT https://github.com/jayofelony/pwnagotchi/tree/master
+# Install rtl8812au drivers(only if you need it)
+sudo apt update && sudo apt upgrade -y 
+sudo apt install -y linux-headers-$(uname -r) build-essential bc dkms git libelf-dev rfkill iw
+sudo mkdir ~/rtl-driver
+cd ~/rtl-driver
+git clone https://github.com/morrownr/8812au-20210629.git
+cd 8812au-20210629
+sudo ./install-driver.sh
+cd ~
 # Bettercap install
 git clone https://github.com/bettercap/bettercap.git
 cd bettercap
@@ -14,9 +21,9 @@ unzip pwngrid_linux_aarch64_v1.10.3.zip
 sudo mv pwngrid /usr/bin/
 sudo pwngrid -generate -keys /etc/pwnagotchi
 # More dependencies
-sudo apt-get -y install gfortran libopenmpi-dev libdbus-1-dev libdbus-glib-1-dev liblapack-dev libhdf5-dev libc-ares-dev libeigen3-dev libatlas-base-dev libopenblas-dev libblas-dev
+sudo apt -y install gfortran libopenmpi-dev libdbus-1-dev libdbus-glib-1-dev liblapack-dev libhdf5-dev libc-ares-dev libeigen3-dev libatlas-base-dev libopenblas-dev libblas-dev
 # Python building + updating
-sudo apt-get install -y build-essential checkinstall pkg-config libfreetype6-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev
+sudo apt install -y build-essential checkinstall pkg-config libfreetype6-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev
 cd /usr/src
 sudo wget https://www.python.org/ftp/python/3.7.9/Python-3.7.9.tgz
 sudo tar xzf Python-3.7.9.tgz
