@@ -1,9 +1,20 @@
-# pwnagotchi-for-pi4
+# WARNING: NOT FULLY WORKING YET!!!!!!
+# pwnagotchi for pi4 install script
 This script is going to help you by installing everything you need to install pwnagotchi.
 
 ### Note
-Not everything is fully automated, since this script only install the paackages you need. You will need to edit the configs in order for this to fully work. Refer to the pwnagotchi website for more support. 
+Not everything is fully automated, since this script only install the packages you need. You will need to edit the configs in order for this to fully work. Refer to the pwnagotchi website for more support. 
 https://pwnagotchi.ai/
+
+# Prerequisites
+- You have to install aircrack and wget, then rebooting your system afterward
+`sudo apt-get update`
+
+`sudo apt-get dist-upgrade`
+
+`sudo apt-get install -y aircrack-ng wget`
+
+`sudo reboot`
 
 # FAQ
 
