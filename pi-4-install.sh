@@ -4,7 +4,7 @@
 sudo apt update && sudo apt upgrade -y 
 sudo apt install -y linux-headers-$(uname -r) build-essential bc dkms git libelf-dev rfkill iw
 git clone https://github.com/morrownr/8812au-20210629.git
-cd ~/src/8812au-20210629
+cd 8812au-20210629
 sudo ./install-driver.sh
 cd ~
 # Bettercap install
