@@ -9,8 +9,11 @@ https://pwnagotchi.ai/
 # Prerequisites
 - You have to install aircrack and wget, then rebooting your system afterward
 `sudo apt-get update`
+
 `sudo apt-get dist-upgrade`
+
 `sudo apt-get install -y aircrack-ng wget`
+
 `sudo reboot`
 
 # FAQ
