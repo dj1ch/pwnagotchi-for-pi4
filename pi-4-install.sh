@@ -3,6 +3,8 @@
 # Install rtl8812au drivers(only if you need it)
 sudo apt update && sudo apt upgrade -y 
 sudo apt install -y linux-headers-$(uname -r) build-essential bc dkms git libelf-dev rfkill iw
+sudo mkdir ~/rtl-driver
+cd ~/rtl-driver
 git clone https://github.com/morrownr/8812au-20210629.git
 cd 8812au-20210629
 sudo ./install-driver.sh
