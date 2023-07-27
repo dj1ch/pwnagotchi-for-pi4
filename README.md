@@ -24,7 +24,9 @@ https://pwnagotchi.ai/
 `sudo bash pi-4-install.sh`
 
 ## What do I do after installing?
-Edit your configs or load them in. Change the interface as well so you can capture wifi handshakes. The script should tell you what to do when you are done. Update your plugins with `sudo pwnagotchi plugins update && sudo pwnagotchi plugins upgrade`, then reboot. 
+The script has now reached a point where everything mentioned here has already been done if you followed the script. I would likely reboot your pi after it has finished. 
+
+`sudo reboot`
 
 ### Note
 This script is not fully working yet. Any help will be appreciated. 
