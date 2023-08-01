@@ -239,3 +239,5 @@ ask_to_continue() {
 
 ask_to_continue
 sudo reboot
+
+EOF
