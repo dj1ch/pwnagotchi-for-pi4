@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-echo "NOTE: YOU MUST HAVE RAN UPDATES, UPGRADED THE PACKAGES, INSTALLED AIRCRACK AND WGET, AND REBOOTED YOUR SYSTEM! CHECK THE INSTALL GUIDE AT https://github.com/jayofelony/pwnagotchi/tree/master"
+echo "### If there are any issues, please submit your issues on my github repository asap!!!!"
+echo "### NOTE: YOU MUST HAVE RAN UPDATES, UPGRADED THE PACKAGES, INSTALLED AIRCRACK AND WGET, AND REBOOTED YOUR SYSTEM! CHECK THE INSTALL GUIDE AT https://github.com/jayofelony/pwnagotchi/tree/master"
 # Install rtl8812au drivers(only if you need it)
 #sudo apt update && sudo apt upgrade -y 
 #sudo apt install -y linux-headers-$(uname -r) build-essential bc dkms git libelf-dev rfkill iw
