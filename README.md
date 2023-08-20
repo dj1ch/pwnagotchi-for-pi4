@@ -1,4 +1,4 @@
-# WARNING: NOT FULLY WORKING YET!!!!!!
+# WARNING: NOT WORKING AT ALL!!!!!
 # pwnagotchi for pi4 install script
 This script is going to help you by installing everything you need to install pwnagotchi.
 
