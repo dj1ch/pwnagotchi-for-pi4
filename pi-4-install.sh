@@ -1,15 +1,7 @@
 #!/usr/bin/env bash
-echo "### If there are any issues, please submit your issues on my github repository asap!!!!"
-echo "### NOTE: YOU MUST HAVE RAN UPDATES, UPGRADED THE PACKAGES, INSTALLED AIRCRACK AND WGET, AND REBOOTED YOUR SYSTEM! CHECK THE INSTALL GUIDE AT https://github.com/jayofelony/pwnagotchi/tree/master"
-# Install rtl8812au drivers(only if you need it)
-#sudo apt update && sudo apt upgrade -y 
-#sudo apt install -y linux-headers-$(uname -r) build-essential bc dkms git libelf-dev rfkill iw
-#sudo mkdir ~/rtl-driver
-#cd ~/rtl-driver
-#git clone https://github.com/morrownr/8812au-20210629.git
-#cd 8812au-20210629
-#sudo ./install-driver.sh
-#cd ~
+echo "### WARNING THIS DOES NOT WORK AT ALL!!!!"
+#echo "### If there are any issues, please submit your issues on my github repository asap!!!!"
+#echo "### NOTE: YOU MUST HAVE RAN UPDATES, UPGRADED THE PACKAGES, INSTALLED AIRCRACK AND WGET, AND REBOOTED YOUR SYSTEM! CHECK THE INSTALL GUIDE AT https://github.com/jayofelony/pwnagotchi/tree/master"
 echo "### This script will take a while. Keep in mind you may need another terminal window for this as you will need to edit some files and run the script at the same time"
 echo "### Keep an eye on this screen"
 wget "https://github.com/bettercap/bettercap/releases/download/v2.28/bettercap_linux_aarch64_v2.28.zip"
