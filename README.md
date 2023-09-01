@@ -8,7 +8,7 @@ Not everything is fully automated since this script only installs the packages y
 https://pwnagotchi.ai/
 
 # Prerequisites
-- Must use 32 bit version of raspberry pi OS
+- Must use 32 bit version of raspberry pi OS(This includes the legacy and 32 bit version. Both the lite and desktop version work).
 
 - You have to install aircrack and wget, then reboot your system afterward
   
