@@ -8,6 +8,8 @@ Not everything is fully automated since this script only installs the packages y
 https://pwnagotchi.ai/
 
 # Prerequisites
+- Must use 32 bit version of raspberry pi OS
+
 - You have to install aircrack and wget, then reboot your system afterward
   
 `sudo apt-get update`
